@@ -25,7 +25,4 @@ jobs:
           push: true
           tags: aravind527/examples-repo:pythonv1   # 👈 custom: image name
 
-      - name: Scan Docker image for vulnerabilities
-        uses: crazy-max/ghaction-container-scan@v3
-        with:
-          image: aravind527/examples-repo:pythonv1  # 👈 custom: image name
+      
